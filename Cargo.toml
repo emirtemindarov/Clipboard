@@ -1,0 +1,20 @@
+[package]
+name = "clipboard"
+version = "0.1.0"
+edition = "2021"
+description = "Clipboard application inspired by Microsoft Clipboard"
+authors = ["Temindarov Emir <temindarov.e.i.20@gmail.com>"]
+homepage = "https://github.com/emirtemindarov/Clipboard.git"
+repository = "https://github.com/emirtemindarov/Clipboard.git"
+license = "mit"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eframe = {version = "0.18.0", feature = "persistance"}
+chrono = "0.4.19"
+clipboard = "0.5.0"
+# keybind = "0.1.0"
+# image = "0.24.2"
+# butcher = "0.5.0"
